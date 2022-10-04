@@ -1,4 +1,6 @@
-Original Repo from Jenserat forking out to create a armv7hf version of his work
+Original Repo from Jenserat forking out to create a armv7hf version of his work located below,
+
+https://github.com/JensErat/docker-tinc
 
 # tinc for Docker
 
