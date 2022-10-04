@@ -1,8 +1,10 @@
-FROM debian:experimental
+FROM arm32v7/debian
 MAINTAINER Jens Erat <email@jenserat.de>
 
 # Remove SUID programs
 RUN for i in `find / -perm +6000 -type f 2>/dev/null`; do chmod a-s $i; done
+
+RUN mkdir /etc/tinc/
 
 RUN echo "deb http://http.debian.net/debian experimental main" >> /etc/apt/sources.list && \
     apt-get update && \
