@@ -1,4 +1,4 @@
-FROM arm64v8/debian
+FROM arm32v7/debian
 MAINTAINER Clay Lua <czeeyong@gmail.com>
 
 # Remove SUID programs
