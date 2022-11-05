@@ -1,5 +1,5 @@
-FROM arm32v7/debian
-MAINTAINER Jens Erat <email@jenserat.de>
+FROM arm64v8/debian
+MAINTAINER Clay Lua <czeeyong@gmail.com>
 
 # Remove SUID programs
 RUN for i in `find / -perm +6000 -type f 2>/dev/null`; do chmod a-s $i; done

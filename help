@@ -1,0 +1,7 @@
+# ARM32V7
+docker build -t claylua/docker-tinc-armhf-arm32v7:manifest-arm32v7 --build-arg ARCH=arm32v7/ .
+docker push claylua/docker-tinc-armhf-arm32v7:manifest-arm32v7
+
+# ARM64V8
+docker build -t claylua/docker-tinc-armhf-arm32v7:manifest-arm64v8 --build-arg ARCH=arm64v8/ .
+docker push claylua/docker-tinc-armhf-arm32v7:manifest-arm64v8
